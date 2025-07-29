@@ -49,11 +49,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "83d96c06951761bfd093ab408f1639ce",
-    "url": "/static/media/Zameen-Logo.83d96c06.jpg"
+    "url": "/static/media/NetSol_logo.jpg"
   },
   {
     "revision": "54db718aaaacf8337d360bbab92a976a",
-    "url": "/static/media/arbisoft-logo.54db718a.jpeg"
+    "url": "/static/media/Zameen-Logo.83d96c06.jpg"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
