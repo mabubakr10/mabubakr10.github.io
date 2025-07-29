@@ -45,15 +45,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "AUTOMATION-DRIVEN SDET WHO BUILDS ROBUST QUALITY STRATEGIES ACROSS STACKS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Design and implement scalable UI and API test automation frameworks (Playwright, Cypress, Appium)"),
+    emoji("⚡ Setup synthetic monitoring, performance tests, and integrate with tools like New Relic, Datadog"),
+    emoji("⚡ Drive shift-left testing practices, code reviews, and quality advocacy across cross-functional teams"),
+    emoji("⚡ Integrate test suites with reporting tools (Cucumber, Allure, TestRail) and collaborative platforms (Slack, Jira)")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -70,7 +67,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Appium",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "Browserstack",
@@ -173,12 +170,7 @@ const workExperiences = {
       company: "Sendoso",
       companylogo: require("./assets/images/sendoso-logo.jpeg"),
       date: "November 2018 – Present",
-      desc: "Built scalable automation frameworks using Playwright and integrated New Relic synthetic monitoring using Prometheus.",
-      descBullets: [
-        "Led test planning, automated test development, and API testing for Product-Led Growth (PLG) initiatives using Puppeteer and Cypress.",
-        "Integrated test suites with TestRail API, Allure reporting, CircleCI, and Slack for streamlined reporting and collaboration.",
-        "Developed a robust Playwright automation framework integrated with Cucumber for scalable BDD testing."
-      ]
+      desc: "Built scalable automation frameworks using Playwright and integrated New Relic synthetic monitoring using Prometheus."
     },
     {
       role: "Senior Test Automation Engineer",
@@ -219,25 +211,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/swims-logo.png"),
+      projectName: "SWIMS",
+      projectDesc: "An internal tool that enables Sendoso to efficiently manage the physical sending aspect of its business",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit",
+          url: "https://www.sendoso.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/plg-logo.png"),
+      projectName: "Product-Led Growth (PLG)",
+      projectDesc: "Sendoso utilizes a product-led growth (PLG) strategy, focusing on its product's value to drive user acquisition, expansion, conversion, and retention",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit",
+          url: "https://www.sendoso.com/resources/blog/redefining-b2b-revenue-models-with-product-led-growth-and-personalization"
         }
       ]
     }
@@ -303,7 +295,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -375,15 +367,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+971-557175953",
+  email_address: "muhammedabubakr@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
