@@ -22,7 +22,7 @@ const illustration = {
 const greeting = {
   username: "Muhammed Abu Bakr",
   title: "Hi all, I'm Abubakr",
-  subTitle: emoji("💻 Passionate Lead SDET 🚀 with 11+ years of experience in crafting scalable test automation frameworks, enabling CI/CD pipelines, and driving quality in fast-paced tech teams using Playwright, Cypress, Puppeteer, and modern DevOps tools like CircleCI, New Relic, and Prometheus.."),
+  subTitle: emoji("💻 Passionate Lead SDET 🚀 with 11+ years of building battle-tested automation — from Playwright, Cypress & Puppeteer frameworks to CI/CD pipelines and observability with CircleCI, New Relic & Prometheus."),
   resumeLink: "https://drive.google.com/file/d/1ftscgnxiB7kWxHIGpgIqTTtbcxDUsPmB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
