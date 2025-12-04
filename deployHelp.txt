@@ -1,0 +1,7 @@
+Your New Workflow:
+Edit files in /Users/abubakr/Documents/profile/developerFolio/src/
+Run the deploy script:
+   cd /Users/abubakr/Documents/profile/developerFolio   ./deploy.sh "Your commit message"
+Wait 1-2 minutes
+Refresh your browser (Cmd+Shift+R)
+That's it! The script handles everything else automatically! 🎊
