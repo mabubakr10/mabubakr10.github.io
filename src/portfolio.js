@@ -56,35 +56,35 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Browserstack",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fas fa-layer-group"
     },
     {
       skillName: "Playwright",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fas fa-theater-masks"
     },
     {
       skillName: "Appium",
-      fontAwesomeClassname: "fab fa-android"
+      fontAwesomeClassname: "fas fa-mobile-alt"
     },
     {
       skillName: "Typescript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js-square"
     },
     {
       skillName: "CircleCI",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fas fa-circle-notch"
     },
     {
       skillName: "DataDog",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fas fa-dog"
     },
     {
       skillName: "Prometheus",
-      fontAwesomeClassname: "fab fa-swift"
+      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "Postman",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fas fa-paper-plane"
     },
     {
       skillName: "MySQL",
@@ -92,15 +92,15 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Jmeter",
-      fontAwesomeClassname: "fa-solid fa-j"
+      fontAwesomeClassname: "fas fa-tachometer-alt"
     },
     {
       skillName: "GraphQL",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-project-diagram"
     },
     {
       skillName: "New Relic",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fas fa-chart-line"
     },
     {
       skillName: "docker",
