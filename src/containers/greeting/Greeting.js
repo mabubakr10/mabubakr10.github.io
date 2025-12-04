@@ -42,9 +42,11 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={greeting.resumeLink.startsWith('http') ? greeting.resumeLink : require("./resume.pdf")}
                     className="download-link-button"
+                    {...(!greeting.resumeLink.startsWith('http') && { download: "Resume.pdf" })}
+                    target={greeting.resumeLink.startsWith('http') ? "_blank" : undefined}
+                    rel={greeting.resumeLink.startsWith('http') ? "noopener noreferrer" : undefined}
                   >
                     <Button text="my resume" />
                   </a>

@@ -22,11 +22,8 @@ const illustration = {
 const greeting = {
   username: "Muhammed Abu Bakr",
   title: "Hi all, I'm Abubakr",
-  subTitle: emoji(
-    "💻 Passionate Lead SDET 🚀 with 11+ years of experience in crafting scalable test automation frameworks, enabling CI/CD pipelines, and driving quality in fast-paced tech teams using Playwright, Cypress, Puppeteer, and modern DevOps tools like CircleCI, New Relic, and Prometheus.."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/15S6pOhf8yes849FOuhX1o8iJKPJZa4u5/view?usp=sharing", // Set to empty to hide the button
+  subTitle: emoji("💻 Passionate Lead SDET 🚀 with 11+ years of experience in crafting scalable test automation frameworks, enabling CI/CD pipelines, and driving quality in fast-paced tech teams using Playwright, Cypress, Puppeteer, and modern DevOps tools like CircleCI, New Relic, and Prometheus.."),
+  resumeLink: "https://drive.google.com/file/d/1ftscgnxiB7kWxHIGpgIqTTtbcxDUsPmB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -58,7 +55,7 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Typescript",
+      skillName: "Browserstack",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
@@ -70,7 +67,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-android"
     },
     {
-      skillName: "Browserstack",
+      skillName: "Typescript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -90,16 +87,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "Jmeter",
+      skillName: "MySQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "MySQL",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Jmeter",
+      fontAwesomeClassname: "fa-solid fa-j"
     },
     {
       skillName: "GraphQL",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "New Relic",
@@ -169,8 +166,22 @@ const workExperiences = {
       role: "Tech Lead Manager / SDET",
       company: "Sendoso",
       companylogo: require("./assets/images/sendoso-logo.jpeg"),
-      date: "November 2018 – Present",
-      desc: "Built scalable automation frameworks using Playwright and integrated New Relic synthetic monitoring using Prometheus."
+      date: "August 2025 – Present",
+      desc: "Spearheading QA initiatives as a Tech Lead Manager by developing scalable automation frameworks with Playwright and implementing synthetic monitoring solutions using New Relic and Prometheus to enhance platform stability and test coverage."
+    },
+    {
+      role: "Senior QA Analyst",
+      company: "Tangent.co",
+      companylogo: require("./assets/images/tangent-logo.jpeg"),
+      date: "March 2024 – August 2025",
+      desc: "GPT-integrated chatbot platform with robust UI/API test automation using Playwright, implemented synthetic monitoring via Datadog, and integrated automated test execution into the CI pipeline with GitHub Actions."
+    },
+    {
+      role: "Senior SDET",
+      company: "Sendoso",
+      companylogo: require("./assets/images/sendoso-logo.jpeg"),
+      date: "November 2018 – March 2024",
+      desc: "Development of a custom automation framework using WebdriverIO, defined the overall test strategy, implemented CI integration with CircleCI, and conducted comprehensive database testing to ensure end-to-end quality and efficient delivery."
     },
     {
       role: "Senior Test Automation Engineer",
@@ -183,15 +194,15 @@ const workExperiences = {
       role: "Senior Quality Assurance Engineer",
       company: "Netsol Technologies",
       companylogo: require("./assets/images/netsol-logo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "January 2016 – April 2017",
       desc: "Worked on different IDE including IntelliJ, VS Code, and Eclipse. Initial enrolment and training on NFS finance & leasing module."
     },
     {
       role: "Quality Assurance Engineer",
       company: "CureMD Research and Development",
       companylogo: require("./assets/images/curemd-logo.jpeg"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Electronic Medical Records (EMR), helped devise and perform testing activities. Fffectively communicated with US providers on daily/weekly progress, blockers, and impediments."
+      date: "April 2014 – December 2015",
+      desc: "Electronic Medical Records (EMR), helped devise and perform testing activities. Effectively communicated with US providers on daily/weekly progress, blockers, and impediments."
     }
   ]
 };
@@ -378,7 +389,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
