@@ -332,6 +332,12 @@ const blogSection = {
       title: "Life at Sendoso — ft. PK Office",
       description:
         "Seasoned QA and Automation Engineer at Sendoso, known for his strategic mindset, love for football, and passion for continuous growth. He values ownership, collaboration, and the opportunity to learn and lead in a culture that thrives on excellence."
+    },
+    {
+      url: "https://medium.com/@muhammedabubakr/how-to-test-an-ai-model-quality-guardrails-and-automation-37cb53ca06cc",
+      title: "How to Test an AI Model: Quality Guardrails and Automation",
+      description:
+        "Learn how to test an AI model using quality guardrails and automation. This article covers the importance of testing AI models, the different types of tests, and the tools and techniques used to test them."
     }
   ],
   display: true // Set false to hide this section, defaults to true
