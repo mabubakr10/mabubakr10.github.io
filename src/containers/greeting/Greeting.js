@@ -9,8 +9,30 @@ import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
+function getDriveFileId(url) {
+  const driveFilePattern = /drive\.google\.com\/file\/d\/([^/]+)/;
+  const match = url.match(driveFilePattern);
+  return match ? match[1] : null;
+}
+
+function getResumeHref(resumeLink) {
+  if (!resumeLink || !resumeLink.startsWith("http")) {
+    return require("./resume.pdf");
+  }
+
+  const driveFileId = getDriveFileId(resumeLink);
+  if (driveFileId) {
+    return `https://drive.google.com/uc?export=download&id=${driveFileId}`;
+  }
+
+  return resumeLink;
+}
+
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  const isExternalResume = greeting.resumeLink && greeting.resumeLink.startsWith("http");
+  const resumeHref = getResumeHref(greeting.resumeLink);
+
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -42,11 +64,11 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={greeting.resumeLink.startsWith('http') ? greeting.resumeLink : require("./resume.pdf")}
+                    href={resumeHref}
                     className="download-link-button"
-                    {...(!greeting.resumeLink.startsWith('http') && { download: "Resume.pdf" })}
-                    target={greeting.resumeLink.startsWith('http') ? "_blank" : undefined}
-                    rel={greeting.resumeLink.startsWith('http') ? "noopener noreferrer" : undefined}
+                    {...(!isExternalResume && {download: "Resume.pdf"})}
+                    target={isExternalResume ? "_blank" : undefined}
+                    rel={isExternalResume ? "noopener noreferrer" : undefined}
                   >
                     <Button text="my resume" />
                   </a>
