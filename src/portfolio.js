@@ -22,8 +22,8 @@ const illustration = {
 const greeting = {
   username: "Muhammed Abu Bakr",
   title: "Hi all, I'm Abubakr",
-  subTitle: emoji("💻 Passionate Lead SDET 🚀 with 11+ years of building battle-tested automation — from Playwright, Cypress & Puppeteer frameworks to CI/CD pipelines and observability with CircleCI, New Relic & Prometheus."),
-  resumeLink: "https://drive.google.com/file/d/1ftscgnxiB7kWxHIGpgIqTTtbcxDUsPmB/view?usp=sharing", // Set to empty to hide the button
+  subTitle: emoji("💻 Lead SDET with 12+ years of experience delivering quality across UI, API, and AI-driven platforms. I build robust automation with Playwright, Cypress, and Puppeteer, and specialize in validating LLM behavior, response consistency, workflow continuity, and backend logic. 🤖"),
+  resumeLink: "https://drive.google.com/file/d/1C_2FaZMBxVxoEMb2iidLwo_HSpKpYOLG/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -163,21 +163,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Tech Lead Manager / SDET",
-      company: "Sendoso",
-      companylogo: require("./assets/images/sendoso-logo.jpeg"),
-      date: "August 2025 – Present",
-      desc: "Spearheading QA initiatives as a Tech Lead Manager by developing scalable automation frameworks with Playwright and implementing synthetic monitoring solutions using New Relic and Prometheus to enhance platform stability and test coverage."
-    },
-    {
-      role: "Senior QA Analyst",
+      role: "Senior SDET",
       company: "Tangent.co",
       companylogo: require("./assets/images/tangent-logo.jpeg"),
-      date: "March 2024 – August 2025",
-      desc: "GPT-integrated chatbot platform with robust UI/API test automation using Playwright, implemented synthetic monitoring via Datadog, and integrated automated test execution into the CI pipeline with GitHub Actions."
+      date: "March 2024 – November 2025",
+      desc: "Built and maintained Playwright-based UI and API automation for a GPT-integrated chatbot platform, validating conversational workflows and system reliability, while implementing Datadog synthetic monitoring and integrating automated test execution into GitHub Actions CI"
     },
     {
-      role: "Senior SDET",
+      role: "Senior SDET / Tech Lead Manager",
       company: "Sendoso",
       companylogo: require("./assets/images/sendoso-logo.jpeg"),
       date: "November 2018 – March 2024",
@@ -221,6 +214,17 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      image: require("./assets/images/reed-ai.png"),
+      projectName: "Reed AI",
+      projectDesc: "Reed AI is a platform that uses AI to help businesses recruit talent across the globe",
+      footerLink: [
+        {
+          name: "Visit",
+          url: "https://www.reed.ai/"
+        }
+      ]
+    },
     {
       image: require("./assets/images/swims-logo.png"),
       projectName: "SWIMS",
