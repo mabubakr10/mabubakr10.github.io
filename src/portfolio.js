@@ -23,7 +23,7 @@ const greeting = {
   username: "Muhammed Abu Bakr",
   title: "Hi all, I'm Abubakr",
   subTitle: emoji("💻 Lead SDET with 12+ years of experience delivering quality across UI, API, and AI-driven platforms. I build robust automation with Playwright, Cypress, and Puppeteer, and specialize in validating LLM behavior, response consistency, workflow continuity, and backend logic. 🤖"),
-  resumeLink: "https://drive.google.com/file/d/1C_2FaZMBxVxoEMb2iidLwo_HSpKpYOLG/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "https://drive.google.com/file/d/1m4C8B-6lPWwyAYbrjQFtFx88ca-n-YJm/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
