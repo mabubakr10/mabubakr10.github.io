@@ -164,6 +164,13 @@ const workExperiences = {
   experience: [
     {
       role: "Senior SDET",
+      company: "Arenaclub.com",
+      companylogo: require("./assets/images/arenaclub.png"),
+      date: "July 2025 – Present",
+      desc: "Own mobile and web QA end-to-end — built the automation strategy from scratch, integrated Bitrise/BrowserStack across 8+ device configs, and cut pre-deploy validation from 3 hours to 30 minutes using a Vercel-triggered smoke suite."
+    },
+    {
+      role: "Senior SDET",
       company: "Tangent.co",
       companylogo: require("./assets/images/tangent-logo.jpeg"),
       date: "March 2024 – November 2025",
