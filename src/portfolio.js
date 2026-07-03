@@ -247,6 +247,17 @@ const bigProjects = {
           url: "https://www.sendoso.com/resources/blog/redefining-b2b-revenue-models-with-product-led-growth-and-personalization"
         }
       ]
+    },
+    {
+      image: require("./assets/images/vercel-smoke-dashboard.png"),
+      projectName: "Vercel Mobile Smoke Dashboard",
+      projectDesc: "A QA dashboard built on Vercel to trigger iOS and Android smoke suites, track flaky tests, and speed up triage with centralized run insights",
+      footerLink: [
+        {
+          name: "Read Article",
+          url: "https://medium.com/@muhammedabubakr/build-mobile-smoke-test-dashboard-on-vercel-b3c14954c7ea"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -338,6 +349,12 @@ const blogSection = {
       title: "How to Test an AI Model: Quality Guardrails and Automation",
       description:
         "Learn how to test an AI model using quality guardrails and automation. This article covers the importance of testing AI models, the different types of tests, and the tools and techniques used to test them."
+    },
+    {
+      url: "https://medium.com/@muhammedabubakr/build-mobile-smoke-test-dashboard-on-vercel-b3c14954c7ea",
+      title: "Build Mobile Smoke Test Dashboard on Vercel",
+      description:
+        "Build a mobile smoke test dashboard on Vercel to monitor the performance of the mobile app. This article covers the different types of tests, the tools and techniques used to test them."
     }
   ],
   display: true // Set false to hide this section, defaults to true
